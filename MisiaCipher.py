@@ -3,7 +3,7 @@
 #  - automatycznie tworzy plik .exe z zaszyfrowanego pliku .py
 #  - pozwala wybrac z dysku / zaimportowac za pomoca linku  ikone pliku
 #  - o wiele bardziej zaawansowane szyfrowanie niz w wersji poprzedniej
-#  - pozwala odrazu szybko i wygodnie w aplikacji przekonwesrtowac pliki JPG/JPEG/PNG na pliki .io (oficjalny plik uzywany dla ikon plikow)
+#  - pozwala odrazu szybko i wygodnie w aplikacji przekonwesrtowac pliki JPG/JPEG/PNG na pliki .ico (oficjalny plik uzywany dla ikon plikow)
 #  - zaawansowane opcje przy budowie exe
 #  - 100% anonimizacja kodu
 #  - wyswietlanie logow w specjalnej zakladce w real time
