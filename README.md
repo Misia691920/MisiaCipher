@@ -1,55 +1,53 @@
-# 🔒 Misia Cipher – Bezpieczne Szyfrowanie Plików
+# 🔒 Misia Cipher 3.0 – Kompleksowa Ochrona Danych i Szyfrowanie
 
-**Misia Cipher** to zaawansowane, a zarazem przyjazne użytkownikowi narzędzie do szyfrowania plików, stworzone z myślą o ochronie danych przy wykorzystaniu algorytmu AES-256. Dzięki intuicyjnemu interfejsowi graficznemu (GUI), Misia Cipher umożliwia łatwe i skuteczne zabezpieczanie zawartości plików przed nieautoryzowanym dostępem. 
+Misia Cipher 3.0 to wszechstronne narzędzie stworzone przez **DN Security** oraz **Misia691920**, które oferuje potężne funkcje szyfrowania i zarządzania danymi. Dzięki nowoczesnemu interfejsowi graficznemu i licznym algorytmom szyfrowania, Misia Cipher zapewnia pełne bezpieczeństwo oraz elastyczność dostosowaną do potrzeb użytkownika.
 
-## 📜 Funkcjonalność Misia Cipher
+## 📜 Rozbudowana Funkcjonalność Misia Cipher 3.0
 
-### 🔹 Algorytm AES-256 w Trybie CFB
-Misia Cipher korzysta z algorytmu **AES (Advanced Encryption Standard)** o długości klucza 256-bitów w trybie **CFB (Cipher Feedback)**. Tryb CFB pozwala na szyfrowanie strumieniowe, co zapewnia, że każda część danych jest zaszyfrowana indywidualnie. Ta metoda eliminuje ryzyko nadpisania danych i gwarantuje ich integralność w trakcie szyfrowania.
+- **Wielopoziomowe Algorytmy Szyfrowania (AES, Blowfish, ChaCha20)**  
+  Misia Cipher 3.0 obsługuje kilka algorytmów szyfrowania, w tym **AES-256**, **Blowfish** i **ChaCha20**. Każdy z tych algorytmów zapewnia zaawansowane zabezpieczenia i pozwala użytkownikowi wybrać najlepszą metodę ochrony plików. 
 
-### 🔹 Przyjazny Interfejs Graficzny
-Narzędzie zostało zaprojektowane z myślą o intuicyjności – interfejs jest prosty, przejrzysty, a wszystkie funkcje są dostępne bezpośrednio z głównego ekranu aplikacji. Przez cały proces szyfrowania użytkownik jest prowadzony krok po kroku, a każda akcja jest opisana poprzez wyraźne komunikaty.
+- **Zaawansowany Interfejs Graficzny (GUI)**  
+  Aplikacja jest intuicyjna i responsywna, zawiera szczegółowe instrukcje i prowadzi użytkownika przez każdy etap szyfrowania i deszyfrowania plików.
 
-### 🔹 Bezpieczeństwo Kluczy i Wektora Inicjalizującego
-Dla każdego pliku generowany jest losowy klucz szyfrujący oraz wektor inicjalizujący (IV). Dzięki temu każde szyfrowanie jest unikalne, co dodatkowo zabezpiecza dane przed możliwością odszyfrowania ich przy użyciu tej samej konfiguracji klucza.
+- **Dynamiczne Klucze i Wektory Inicjalizujące (IV)**  
+  Misia Cipher 3.0 generuje unikalne klucze i wektory inicjalizujące dla każdego pliku, co eliminuje ryzyko użycia tego samego klucza do wielu plików i zwiększa poziom bezpieczeństwa.
 
-### 🔹 Real-time Status Tracking
-Każdy etap procesu szyfrowania jest szczegółowo wyjaśniany użytkownikowi poprzez komunikaty wyświetlane w interfejsie. Aplikacja informuje o statusie począwszy od wyboru pliku, przez przygotowanie, aż po zakończenie procesu szyfrowania.
+- **Śledzenie Statusu i Postępu w Czasie Rzeczywistym**  
+  Podczas procesu szyfrowania/deszyfrowania wyświetlany jest pasek postępu, informujący o każdym kroku operacji. Dzięki temu użytkownik jest na bieżąco z aktualnym stanem przetwarzania danych.
 
----
+- **Wsparcie dla Operacji Asynchronicznych**  
+  Misia Cipher 3.0 działa płynnie, nawet przy dużych plikach i skomplikowanych operacjach, dzięki zastosowaniu technologii wielowątkowej i asynchronicznej.
 
-## 🔧 Jak działa Misia Cipher?
+## 🔧 Jak Działa Misia Cipher 3.0?
 
-### 1. Wybór Pliku do Szyfrowania
-Użytkownik może szybko wybrać plik do zaszyfrowania za pomocą przycisku "Wybierz plik". Wybrany plik jest następnie analizowany i przygotowywany do procesu szyfrowania.
+1. **Wybór i Analiza Pliku**  
+   Użytkownik wybiera plik, który jest następnie przygotowywany do procesu szyfrowania lub deszyfrowania z wykorzystaniem najnowszych algorytmów.
 
-### 2. Generowanie Klucza i Wektora Inicjalizującego (IV)
-Misia Cipher generuje unikalny, losowy klucz 256-bitowy oraz wektor inicjalizujący 128-bitowy. Oba te elementy są kodowane w zaszyfrowanej postaci, co zabezpiecza je przed dostępem osób trzecich.
+2. **Generowanie Klucza i IV**  
+   Misia Cipher automatycznie tworzy unikalne klucze szyfrowania oraz wektory inicjalizujące, zapewniając najwyższy poziom bezpieczeństwa danych.
 
-### 3. Proces Szyfrowania
-Zawartość pliku jest szyfrowana blok po bloku przy użyciu algorytmu AES-256 w trybie CFB. Proces ten zapewnia pełną integralność danych, zachowując jednocześnie wysoki poziom bezpieczeństwa.
+3. **Szyfrowanie lub Deszyfrowanie Danych**  
+   Algorytm (**AES**, **Blowfish**, **ChaCha20**) wybrany przez użytkownika przetwarza zawartość pliku w trybie blokowym lub strumieniowym, zapewniając pełną integralność i bezpieczeństwo danych.
 
-### 4. Zapis Zaszyfrowanego Pliku
-Po zakończeniu szyfrowania Misia Cipher zapisuje plik pod nową nazwą, np. `plik_zaszyfrowany.py`, aby odróżnić go od oryginału. Zaszyfrowany plik można bezpiecznie przechowywać lub udostępniać bez ryzyka, że ktoś niepowołany odczyta jego zawartość.
+4. **Zapis i Bezpieczne Przechowywanie Pliku**  
+   Po zakończeniu operacji Misia Cipher zapisuje plik pod nową nazwą, bezpiecznie oddzielając zaszyfrowaną wersję od oryginału.
 
-### 5. Powiadomienie o Zakończeniu
-Po zakończeniu procesu aplikacja wyświetla powiadomienie informujące o pomyślnym szyfrowaniu pliku, wraz z lokalizacją, gdzie został zapisany zaszyfrowany plik.
+5. **Powiadomienie o Zakończeniu**  
+   Po ukończeniu operacji użytkownik otrzymuje powiadomienie o sukcesie wraz z lokalizacją pliku, który został przetworzony.
 
----
+## 📈 Dlaczego Wybrać Misia Cipher 3.0?
 
-## 📈 Dlaczego Warto Wybrać Misia Cipher?
+- 🔐 **Zaawansowane Zabezpieczenia**  
+  Misia Cipher 3.0 oferuje unikalne rozwiązania, które gwarantują pełne bezpieczeństwo Twoich danych, zarówno prywatnych, jak i zawodowych.
 
-### 🔐 Bezpieczeństwo i Prywatność
-Zastosowanie AES-256 oraz unikalnych kluczy i IV dla każdego pliku sprawia, że Misia Cipher zapewnia najwyższy poziom ochrony danych.
+- 🖱️ **Łatwa Obsługa**  
+  Dzięki nowoczesnemu interfejsowi i intuicyjnym instrukcjom Misia Cipher 3.0 jest odpowiedni nawet dla osób, które nie są ekspertami w dziedzinie technologii.
 
-### 🖱️ Prosta Obsługa
-Intuicyjny interfejs graficzny pozwala na szyfrowanie plików nawet osobom bez wiedzy technicznej.
+- ⚙️ **Rozbudowany System Informacyjny**  
+  Aplikacja prowadzi użytkownika przez każdy etap, zapewniając pełną przejrzystość i kontrolę nad procesem.
 
-### ⚙️ Pełna Transparentność
-Aplikacja informuje użytkownika na każdym etapie procesu szyfrowania, a także umożliwia przegląd statusu operacji w czasie rzeczywistym.
+**Misia Cipher 3.0** to niezastąpione narzędzie do ochrony danych dla użytkowników prywatnych i profesjonalistów, ceniących sobie prywatność i bezpieczeństwo.
 
----
-
-**Misia Cipher** to niezawodne narzędzie do ochrony danych, idealne zarówno dla osób prywatnych, jak i profesjonalistów, którzy cenią sobie prywatność i bezpieczeństwo swoich informacji.
-
-> 🔗 **Pobierz i chroń swoje pliki już teraz!**
+## 🔗 Pobierz Misia Cipher 3.0 i zacznij chronić swoje dane już teraz!
+z!**
